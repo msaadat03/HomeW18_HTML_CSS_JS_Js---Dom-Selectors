@@ -1,0 +1,56 @@
+.nums {
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+.nums > input {
+  width: 30%;
+}
+
+.operators {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+.operators .buttons .add {
+  background-color: skyblue;
+  border: none;
+  color: white;
+  width: 100;
+  height: 40;
+}
+.operators .buttons .sub {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 100;
+  height: 40;
+}
+.operators .buttons .mult {
+  background-color: green;
+  border: none;
+  color: white;
+  width: 100;
+  height: 40;
+}
+.operators .buttons .div {
+  background-color: yellow;
+  color: white;
+  border: none;
+  width: 100;
+  height: 40;
+}
+
+.result {
+  display: flex;
+  color: black;
+  height: 40px;
+  width: 30%;
+  margin: auto;
+  align-items: center;
+}/*# sourceMappingURL=calculate.css.map */
